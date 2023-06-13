@@ -25,8 +25,8 @@ class Bot(commands.Bot):
             await self.load_extension(ext)
         print("loaded all cogs")
 
-        synced = await self.tree.sync()
-        print(f"synced {len(synced)} commands")
+        # synced = await self.tree.sync()
+        # print(f"synced {len(synced)} commands")
 
         print("Bot is ready")
 
